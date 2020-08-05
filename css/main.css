@@ -172,7 +172,7 @@ html {
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: #f7f7f7;
   font-family: OpenSans, sans-serif;
 }
 
@@ -233,5 +233,9 @@ h6,
 p {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.footer__form {
+  background-color: #191c26;
 }
 /*# sourceMappingURL=main.css.map */
