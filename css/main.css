@@ -3,24 +3,6 @@
  * Главный файл стилей.
  * Все паршалы подключаются сюда.
  */
-.example {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  line-height: 1.5;
-  color: #212121;
-  max-width: 960px;
-  padding: 15px;
-}
-
-.example code {
-  font-family: monospace;
-  font-size: 16px;
-  font-weight: 700;
-  background-color: teal;
-  color: white;
-  padding: 2px 6px;
-  border-radius: 2px;
-}
-
 /*! modern-normalize v0.7.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 *,
 ::after,
@@ -172,8 +154,8 @@ html {
 }
 
 body {
-  background-color: #f7f7f7;
-  font-family: OpenSans, sans-serif;
+  background-color: #e5e5e5;
+  font-family: "Open Sans", sans-serif;
 }
 
 img {
@@ -201,7 +183,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .container {
     width: 1280px;
   }
@@ -237,5 +219,31 @@ p {
 
 .footer__form {
   background-color: #191c26;
+}
+
+.footer-form__title {
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.footer__contacts {
+  background-color: #191c26;
+}
+
+.footer-contacts__title {
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: 0.05em;
 }
 /*# sourceMappingURL=main.css.map */
